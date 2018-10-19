@@ -1,0 +1,19 @@
+{
+    "name": "Chrome Extension",
+    "version": "0.0.0",
+    "description": "a general-purpose chrome extension to show/hide/alter content on webpages I use",
+     "content_scripts": [
+       {
+         "matches": ["https://*.facebook.com/*"],
+         "css": ["css/facebook.css"],
+         "js": ["js/facebook.js"]
+       }
+     ],
+    "icons": {
+        "16": "images/icon_16.png",
+        "32": "images/icon_32.png",
+        "48": "images/icon_48.png",
+        "128": "images/icon_128.png"
+    },
+    "manifest_version": 2
+}

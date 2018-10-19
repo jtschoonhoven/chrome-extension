@@ -1,0 +1,14 @@
+/* make all content black and white */
+html {
+    -webkit-filter: grayscale(1);
+}
+
+/* hide unread messages count */
+#mercurymessagesCountValue {
+    display: none;
+}
+
+/* hide unread notifications count */
+#notificationsCountValue {
+    display: none;
+}
