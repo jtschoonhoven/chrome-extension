@@ -3,6 +3,10 @@ html {
     -webkit-filter: grayscale(1);
 }
 
+div[role=feed] > div:not(:hover) {
+    -webkit-filter: blur(3px);
+}
+
 /* hide unread messages count */
 #mercurymessagesCountValue {
     display: none;
@@ -10,5 +14,30 @@ html {
 
 /* hide unread notifications count */
 #notificationsCountValue {
+    display: none;
+}
+
+/* hide stories */
+#stories_tray {
+    display: none;
+}
+
+/* hide language picker */
+#pagelet_rhc_footer {
+    display: none;
+}
+
+/* hide "explore" sidebar */
+#appsNav {
+    display: none;
+}
+
+/* hide "create" nav */
+#createNav {
+    display: none;
+}
+
+/* hide sidebar ads */
+.ego_section {
     display: none;
 }
